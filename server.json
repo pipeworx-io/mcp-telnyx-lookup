@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/telnyx-lookup",
   "title": "Telnyx Lookup",
   "description": "Telnyx Number Lookup MCP — wraps the Telnyx Number Lookup API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/telnyx-lookup",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-telnyx-lookup",

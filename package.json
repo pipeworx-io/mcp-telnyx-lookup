@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-telnyx-lookup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Telnyx Number Lookup MCP — wraps the Telnyx Number Lookup API",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-a11623bec56c74e444de2b13c4e124d422f324b4a8032357849a2af873043df2",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
