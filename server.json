@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/telnyx-lookup",
   "title": "Telnyx Lookup",
-  "description": "Telnyx Number Lookup MCP — wraps the Telnyx Number Lookup API",
-  "version": "0.1.3",
+  "description": "Telnyx Number Lookup MCP — wraps the Telnyx Number Lookup API…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/telnyx-lookup",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-telnyx-lookup",

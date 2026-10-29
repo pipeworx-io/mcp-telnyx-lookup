@@ -1,0 +1,34 @@
+[
+  {
+    "name": "telnyx_number_lookup",
+    "description": "Look up carrier, caller-name (CNAM), and number-portability/LRN data for a phone number using the Telnyx Number Lookup API. Returns the carrier name and line type (mobile/landline/voip), the CNAM caller name, and portability details (ported status, local routing number, city/state). Example: telnyx_number_lookup({ phone_number: \"+18665552368\", _apiKey: \"your-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "phone_number": {
+          "type": "string",
+          "description": "Phone number to look up, in E.164 format including the leading \"+\" and country code, e.g. \"+18665552368\"."
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "carrier",
+              "caller-name"
+            ]
+          },
+          "description": "Which enrichments to request: \"carrier\" (carrier name + line type) and/or \"caller-name\" (CNAM). Defaults to both. Portability data is always returned."
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Telnyx API key (created in the Mission Control portal at https://telnyx.com)."
+        }
+      },
+      "required": [
+        "phone_number",
+        "_apiKey"
+      ]
+    }
+  }
+]
