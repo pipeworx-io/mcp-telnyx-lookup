@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-telnyx-lookup",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Telnyx Number Lookup MCP — wraps the Telnyx Number Lookup API (https://developers.telnyx.com/docs/identity/number-lookup/quickstart)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "telnyx-lookup",
     "gatewaySlug": "telnyx-lookup",
-    "sourceHash": "v1-e32c69763cda7dd84716052196921d81dcaa56bf91156887647691652ce04ebe",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-feeb98fbe29a2421d12719ce1dec1049d3bce158a2fb86ff9eeea22932317939",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
